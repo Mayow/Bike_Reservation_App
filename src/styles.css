@@ -1,0 +1,104 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+.app {
+  background: lightblue;
+  padding: 10px;
+  height: 100%;
+  margin: 5%;
+}
+
+.product-list {
+  background: #e8e8e8;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 100%;
+}
+
+.product {
+  background: #fff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  padding: 3px 10px;
+  font-size: 12px;
+  margin-bottom: 12px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 300px;
+}
+
+.productTitle {
+  font-size: 25px;
+}
+
+.reserveButton {
+  background-color: #e8e8e8;
+}
+
+.price {
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 650px) {
+  .price_product {
+    margin-top: 20px;
+    margin-left: 25px;
+    display: inline-block;
+    width: 57%;
+    margin-right: 0px !important;
+  }
+
+  .reserveButton {
+    margin-left: 10px !important;
+    margin-top: -1000px !important;
+  }
+
+  .product {
+    display: block;
+    height: 440px;
+  }
+
+  .productTitle {
+    font-size: 28px;
+    margin-top: 20px;
+  }
+  .title {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .reserveButton {
+    margin-top: 15px !important;
+    margin-left: 24px !important;
+  }
+
+  .product {
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 355px) {
+  .productImage {
+    height: 150px;
+    width: 160px;
+  }
+  .productTitle {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .productImage {
+    height: 80px;
+    width: 94px;
+  }
+
+  .product {
+    display: block;
+    height: 420px;
+  }
+}
